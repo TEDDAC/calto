@@ -22,3 +22,20 @@ Booleen videElem(Element e)
 {
   return e.type == '0';
 }
+
+Element *parser(char expression[], int taille)
+{
+  Element * tab;
+  tab=(Element*)malloc(taille*sizeof(Element));
+  int nbparenthese = 0,i=0;
+  while(i<taille && expression[i]!='\0')
+  {
+    if(expression[i] >= 48 && expression[i] < 58)
+    {
+      if(i==0)
+      {
+        
+      }
+    }
+  }
+}

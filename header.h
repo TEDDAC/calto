@@ -26,4 +26,4 @@ char *lireIO();
 //void afficherElement(Element e);
 Booleen videElem(Element e);
 Element nouvElem();
-Arbre parser(char expression[]);
+Element * parser(char expression[], int taille);
