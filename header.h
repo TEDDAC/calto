@@ -1,5 +1,3 @@
-#include "bool.h"
-
 typedef enum {faux,vrai} Booleen;
 typedef struct maillona
 {

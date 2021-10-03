@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "header.h"
-#include "bool.h"
 
 void test()
 {
