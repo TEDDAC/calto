@@ -8,6 +8,6 @@ typedef struct
 typedef enum {faux,vrai} Booleen;
 
 char *lireIO();
-void afficherElement(Element e);
+//void afficherElement(Element e);
 Booleen videElem(Element e);
 Element nouvElem();

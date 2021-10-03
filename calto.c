@@ -22,8 +22,3 @@ Booleen videElem(Element e)
 {
   return e.type == '0';
 }
-
-/*void afficherElement(Element e)
-{
-
-}*/
